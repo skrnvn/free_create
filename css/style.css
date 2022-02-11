@@ -77,8 +77,9 @@ header p{
 .banner-main{
     background-image: url('../images/main-bg-1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    padding: 130px 0 309px;
+    padding: 340px 0 309px;
 }
 
 .banner-main p{
