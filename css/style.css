@@ -91,7 +91,7 @@ header p{
     margin-bottom: 65px;
 }
 
-.banner-main a{
+.banner-main a, .portfolio-desc a{
     font-size: 18px;
     /*line-height: 140%;*/
     color: #181818;
@@ -100,6 +100,13 @@ header p{
     border-radius: 40px;
     margin-right: 20px;
     font-family: sans-serif;
+}
+
+.portfolio-desc a{
+    border: 1px solid #181818;
+    border-radius: 40px;
+    margin-right: 0;
+    align-self: flex-start;
 }
 
 h1{
@@ -184,4 +191,48 @@ h1{
     text-align: right;
     margin-right: 80px;
     margin-bottom: 15px;
+}
+
+.portfolio-item h2{
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.portfolio-item{
+    margin-bottom: 100px;
+}
+
+.portfolio-item:last-child{
+    margin-bottom: 58px;
+}
+
+.portfolio-item p{
+    max-width: 233px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;;
+}
+
+.portfolio-item img{
+    margin-bottom: 38px;
+}
+
+.portfolio-desc{
+    max-width: 540px;
+    align-items: flex-start;
+}
+
+.load-more-btn{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF;
+    padding: 23px 47px;
+    background: #2B59C3;
+    border-radius: 40px;
+    margin-left: 300px;
 }
