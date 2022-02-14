@@ -30,7 +30,7 @@
     margin-bottom: 40px;
 }
 
-.container-style h3{
+.container-style h3, .container-guide h3{
     font-size: 38px;
     color: #181818;
     font-style: normal;
@@ -123,11 +123,11 @@ h1{
     margin-bottom: 140px;
 }
 
-.corp-style img, .style-cost img{
+.corp-style img, .style-cost img, .container-guide img{
     max-width: 635px;
 }
 
-.corp-style div, .style-cost div{
+.corp-style div, .style-cost div, .guide-desc div{
     max-width: 445px;
     font-size: 18px;
     line-height: 140%;
@@ -235,4 +235,36 @@ h1{
     background: #2B59C3;
     border-radius: 40px;
     margin-left: 300px;
+}
+
+.guide-desc{
+    margin-bottom: 77px;
+}
+
+.guide-desc h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF;
+    background: #2B59C3;
+    border-radius: 5px 5px 0 0;
+    padding: 14px 39px 10px 11px;
+    margin: 0;
+}
+
+.guide-desc p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    padding: 15px 14px 0 14px;
+}
+
+.guide-desc p:first-of-type{
+    color: #FFFFFF;
+    background: #2B59C3;
+    border-radius: 0 0 5px 5px;
+    padding: 0 39px 18px 14px;
 }
